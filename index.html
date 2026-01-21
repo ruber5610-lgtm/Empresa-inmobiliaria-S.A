@@ -2,106 +2,106 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Empresa Inmobiliaria</title>
+    <title>Atlas Capital Group</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-            background: #f4f4f4;
-            color: #333;
+            background: #f4f6f8;
+            color: #1c1c1c;
         }
         header {
-            background: #0a2540;
+            background: #0f172a;
             color: white;
-            padding: 20px;
+            padding: 50px 20px;
             text-align: center;
         }
-        section {
-            padding: 30px;
-            max-width: 1000px;
-            margin: auto;
-            background: white;
-            margin-top: 20px;
-            border-radius: 8px;
-        }
-        h2 {
-            color: #0a2540;
-        }
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .card {
-            background: #eef2f7;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #0a2540;
-            color: white;
-            margin-top: 30px;
-        }
-        button {
-            padding: 10px 20px;
-            background: #0a2540;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
+        header h1 { font-size: 44px; margin: 0; }
+        header p { font-size: 18px; opacity: 0.85; }
+        nav { background: #020617; padding: 15px; text-align: center; }
+        nav a { color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; }
+        section { padding: 60px 20px; max-width: 1200px; margin: auto; background: white; border-radius: 12px; margin-top: 20px; }
+        h2 { color: #0f172a; text-align: center; margin-bottom: 40px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 30px; }
+        .card { background: #eef2f7; padding: 25px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); text-align: center; }
+        .card h3 { margin-top: 0; color: #0f172a; }
+        footer { text-align: center; padding: 30px; background: #0f172a; color: white; margin-top: 40px; }
+        button { padding: 12px 28px; background: #0f172a; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; transition: 0.3s; }
+        button:hover { background: #1a2a4c; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Grupo Inmobiliario</h1>
+    <h1>Atlas Capital Group</h1>
     <p>Inversiones • Construcción • Fix & Flip • Rentas</p>
 </header>
 
-<section>
+<nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
     <h2>Quiénes somos</h2>
-    <p>
-        Somos una empresa especializada en inversiones inmobiliarias de alto crecimiento.
-        Desarrollamos proyectos residenciales, edificios y estrategias de Fix & Flip
-        con enfoque en rentabilidad y expansión.
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        Atlas Capital Group es una empresa de inversión inmobiliaria enfocada en crecimiento, rentabilidad y desarrollo de activos premium. Nuestro objetivo es maximizar el valor de cada proyecto y generar ingresos sostenibles a largo plazo.
     </p>
 </section>
 
-<section>
-    <h2>Nuestras áreas</h2>
+<section id="servicios">
+    <h2>Nuestros servicios</h2>
     <div class="cards">
         <div class="card">
             <h3>Fix & Flip</h3>
-            <p>Compra, remodelación y venta rápida con altos márgenes.</p>
+            <p>Compra, remodelación y venta rápida de propiedades con altos márgenes.</p>
         </div>
         <div class="card">
             <h3>Construcción</h3>
-            <p>Casas, mansiones y edificios desde cero.</p>
+            <p>Casas, mansiones y edificios desde cero, con diseño premium.</p>
         </div>
         <div class="card">
             <h3>Rentas</h3>
-            <p>Edificios y propiedades para ingresos mensuales.</p>
+            <p>Gestión de edificios y propiedades para flujo de caja mensual estable.</p>
         </div>
         <div class="card">
             <h3>Inversiones</h3>
-            <p>Capital privado y crecimiento empresarial.</p>
+            <p>Capital privado y financiamiento estratégico a empresas con alto potencial.</p>
         </div>
     </div>
 </section>
 
-<section>
+<section id="proyectos">
+    <h2>Proyectos destacados</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Edificios residenciales</h3>
+            <p>Desarrollo y venta de edificios de alto valor en mercados estratégicos.</p>
+        </div>
+        <div class="card">
+            <h3>Mansiones de lujo</h3>
+            <p>Construcción y venta de residencias premium con márgenes superiores al 50%.</p>
+        </div>
+        <div class="card">
+            <h3>Portafolio de alquiler</h3>
+            <p>Edificios de apartamentos generando flujo de caja estable y diversificado.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
     <h2>Contacto</h2>
-    <p>Email: ruber5610@gmail.com</p>
-    <p>Teléfono: +53 50680169</p>
-    <button>Invertir con nosotros</button>
+    <p style="text-align:center;">Email: contacto@atlascapitalgroup.com</p>
+    <p style="text-align:center;">Teléfono: +1 (000) 000-0000</p>
+    <p style="text-align:center;"><button>Solicitar inversión</button></p>
 </section>
 
 <footer>
-    <p>© 2026 Grupo Inmobiliario</p>
+    <p>© 2026 Atlas Capital Group. Todos los derechos reservados.</p>
 </footer>
 
 </body>
-  </html>
+</html>
